@@ -1,0 +1,58 @@
+
+/* custom properties */
+:root{
+    --favouritecolor:#900b4c;
+    --favouritecolor1:#030a57;
+    --favouritecolor2:#60936f;
+    --favouritecolor3:#3fd9df;
+}
+
+*{
+    background-color:var(--favouritecolor3);
+    border: 0;
+    padding: 0%;
+}
+
+.nav a{
+    background-color: var(--favouritecolor);
+    text-align: center;
+    padding: 1rem;
+    color:var(--favouritecolor1);
+    text-decoration: none;
+}
+
+.nav{
+    font-size: medium;
+    text-align: center;
+}
+
+div img{
+    width: 211px;
+    height: 234px;
+}
+
+div p{
+    color:red;
+}
+
+h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: var(--favouritecolor1);
+    padding: 2rex;
+}
+
+a:active{
+    color: green;
+}
+
+@media screen and (max-width:700px){
+    body{
+        background-color: var(--favouritecolor);
+
+    }
+}
+
